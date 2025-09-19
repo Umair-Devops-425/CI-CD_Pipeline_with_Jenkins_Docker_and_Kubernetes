@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Welcome to Flask DevOps Demo</h1>
+    <br>
+    <form action="/echo" method="POST">
+        <input type="text"  class="form-control" name="user_input" placeholder="Type something..." required>
+        <br>
+        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+    </form>
+    {% if message %}
+    <p>You said: <strong>{{ message }}</strong></p>
+    {% endif %}
+{% endblock %}

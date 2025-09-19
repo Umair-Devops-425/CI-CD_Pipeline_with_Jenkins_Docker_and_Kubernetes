@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: purple;
+    color: #2f3640;
+    text-align: center;
+    padding: 30px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #40739e;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+button {
+    padding: 8px 12px;
+    background: #40739e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #273c75;
+}
