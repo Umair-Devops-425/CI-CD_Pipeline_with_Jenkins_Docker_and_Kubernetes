@@ -7,8 +7,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main',
-                    url 'https://github.com/Umair-Devops-425/CI-CD_Pipeline_with_Jenkins_Docker_and_Kubernetes.git'
+                git branch: 'main',  // Change from 'master' to 'main'
+                    url: 'https://github.com/Umair-Devops-425/CI-CD_Pipeline_with_Jenkins_Docker_and_Kubernetes.git'
             }
         }
         stage('Build Docker Image') {
